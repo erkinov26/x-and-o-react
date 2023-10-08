@@ -60,7 +60,7 @@ function App() {
                   item === null &&
                   gameState === "inProgress"
                 ? "oHover"
-                : undefined
+                : ""
             }`}
             disabled={item || gameState === "over"}
             onClick={() => handleClick(index)}
