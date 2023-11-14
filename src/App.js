@@ -85,5 +85,4 @@ function App() {
     </div>
   );
 }
-// comment is added
 export default App;
